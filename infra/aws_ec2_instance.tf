@@ -10,5 +10,5 @@ module "aws_ec2_instance" {
   vpc_security_group_ids = [module.aws_security_group.security_group_id]
   user_data = file("files/install_http.sh")
 
-  depends_on = [module.aws_security_group]
+  depends_on = [module.aws_security_group, aws_security_group.aws_ssh_access]
 }
