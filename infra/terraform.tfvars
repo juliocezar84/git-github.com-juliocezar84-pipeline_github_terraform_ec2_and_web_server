@@ -1,0 +1,8 @@
+instanceName = "raven-ec2-instace"
+imageId = "ami-0583d8c7a9c35822c"
+instanceType = "t2.micro"
+keyName = "kubekey"
+vpcId = "vpc-0856f9fd9e5422bd6"
+securityGroupName = "raven-sg01"
+securityGroupDescription = "Security group para liberar HTTP na porta 80"
+awsRegion = "us-east-1"
