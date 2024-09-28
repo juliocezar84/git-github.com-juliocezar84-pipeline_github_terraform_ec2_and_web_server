@@ -1,4 +1,4 @@
-instanceName = "raven-ec2-instace"
+instanceName = "raven-ec2-instance"
 imageId = "ami-0583d8c7a9c35822c"
 instanceType = "t2.micro"
 keyName = "kubekey"
